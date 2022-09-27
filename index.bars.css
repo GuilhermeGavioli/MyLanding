@@ -1,0 +1,109 @@
+#progress-5{ width: 5%;} 
+#progress-10{ width: 10%;} 
+#progress-15{ width: 15%;}
+
+
+#progress-20{ width: 20%;
+    animation: infinite .9s alternate-reverse changeProgressWidth20s ease-in-out;
+}
+
+@keyframes changeProgressWidth20s{
+    from{ width: 20%; }
+    to{ width: 22%; 
+        background-color: #FF9900;
+    }
+}
+
+#progress-25{ width: 25%;}
+#progress-30{ width: 30%;}
+#progress-40{ width: 40%;}
+#progress-45{ width: 45%;}
+
+
+#progress-50{ width: 50%;}
+#progress-60{
+     width: 60%;
+     animation: infinite 1.3s alternate-reverse changeProgressWidth60s ease-out;
+}
+
+/* //css */
+#progress-67{
+    width: 69%;
+    animation: infinite 1.3s alternate-reverse changeProgressWidth67s ease-out;
+}
+@keyframes changeProgressWidth67s{
+    from{ width: 67%; }
+    to{ width: 69%;
+        background-color: #264de4;
+    }
+}
+/* //nodejs */
+#progress-68{
+     width: 60%;
+     animation: infinite 1.3s alternate-reverse changeProgressWidth68s ease-out;
+}
+@keyframes changeProgressWidth68s{
+    from{ width: 68%; }
+    to{ width: 70%;
+        background-color: #3c873a;
+    }
+}
+
+#progress-65{ 
+    width: 65%;
+    animation: infinite 1.3s alternate-reverse changeProgressWidth65s ease-out;
+}
+@keyframes changeProgressWidth65s{
+    from{ width: 65%; }
+    to{ width: 67%;
+        background-color: red;
+    }
+}
+/* //docker */
+@keyframes changeProgressWidth60s{
+    from{ width: 60%; }
+    to{ width: 62%;
+        background-color: rgb(47, 137, 254);
+       
+    }
+}
+
+#progress-70{ 
+    width: 70%;
+    animation: infinite 1.7s alternate-reverse changeProgressWidth70s ease-out;
+}
+#progress-71{
+    width: 71%;
+}
+
+@keyframes changeProgressWidth70s{
+    from{ width: 70%; }
+    to{ width: 71.5%;
+        background-color: blue;
+}
+}
+
+#progress-75{ width: 75%;}
+
+#progress-80{ 
+    width: 80%;
+    animation: infinite 2s alternate-reverse changeProgressWidth80s ease-in-out;
+}
+@keyframes changeProgressWidth80s{
+    from{ width: 80%; }
+    to{ width: 82%;
+        background-color: #F0DB4F;
+    }
+}
+
+#progress-85{ 
+    width: 85%;
+    animation: infinite 1.5s alternate-reverse changeProgressWidth85s ease-out;
+}
+@keyframes changeProgressWidth85s{
+    from{ width: 85%; }
+    to{ 
+        width: 86.5%;
+        background-color: #007acc;
+}
+}
